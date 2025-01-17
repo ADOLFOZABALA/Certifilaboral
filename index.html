@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    
+    <!--Enlaces externos css y js-->
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/bootstrap.js"></script>
+    <script src="./scripts/app.js"></script>
+
+</head>
+<body>
+    <div class="container border text-center">        
+        <img src="./images/Logo.png" alt="" class="img-fluid" id="logo"> 
+    </div>
+
+  
+    <div class="container border text-center" id="titulo">
+        <p class="h5"> APP Certificado Laboral</p>
+    </div>
+    <!--Formulario captura datos-->
+    <form id="formulario">
+        <div class="container border text-center">
+          <div class="form">
+            <input type="text" class="form-control" name="user" id="user" placeholder="Nombre Usuario">
+          </div>
+          <div class="form">
+            <input type="text" class="form-control" name="password" id="password" placeholder="Password">
+          </div>         
+        </div>
+      </form>
+      <div class="container border text-center">
+        <button class="btn btn-primary" type="button" onclick="captura()">Ingresar</button>
+    </div>
+    <div class="container border text-center">
+    <section class="olvido" onclick="">Olvidaste tu contraseña</section>
+</div>
+        
+
+
+
+
+
+    
+</body>
+</html>

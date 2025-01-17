@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userMod</title>
+    <link rel="stylesheet" href="./styles/styleUser.css">
+    
+</head>
+<body>
+    <header>
+        <section><!--Espacio imagen de encabezado--></section>
+        <p id="titulo">App Certificado Laboral</p>
+
+    </header>
+
+    <p id="seleccion">Seleccione el tipo de certificado</p>
+
+        <ol class="certificados">
+            <li>Cargo y funciones</li>
+                <div class="toggleContainer">
+        
+                <input type="checkbox" id="switch" class="toggle">
+              
+                <label for="switch" class="switch"></label>
+              
+                </div> 
+
+            <li>Sueldo y cargo</li>
+
+                <div class="toggleContainer">
+        
+                <input type="checkbox" id="switch" class="toggle">
+              
+                <label for="switch" class="switch"></label>
+              
+                </div> 
+            <li>Historico</li>
+
+            <div class="toggleContainer">
+        
+                <input type="checkbox" id="switch" class="toggle">
+              
+                <label for="switch" class="switch"></label>
+              
+                </div> 
+        </ol>
+
+        <!--Boton para llamar clase de generar certificado-->
+            <form method="get" action="">
+            <input type="submit" value="Generar" id="generar"/>
+    
+</body>
+</html>
