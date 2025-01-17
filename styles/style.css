@@ -1,0 +1,33 @@
+#logo{
+    margin-top: 50px;
+    width:75px;
+    height:auto;
+}
+#titulo{
+    width:auto;    
+    height:auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#006580;  
+        
+}
+#formulario{
+
+    width: 200px;
+    background: center center;
+    margin-left: 550px;
+  
+}
+.form{
+    margin-top: 10px;    
+ 
+}
+#user, #password{
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: #009640;
+    border-color: #009640;
+}
+

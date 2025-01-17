@@ -1,0 +1,43 @@
+.forma{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-position: center;
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 350px;
+    font: 2em sans-serif;
+    box-sizing: border-box;
+
+}
+
+option {
+    width: 250px;
+    white-space:pre-wrap;
+    word-wrap: break-word;
+  }
+
+  #aprobador, #lang{
+    margin-top:10px;
+    font-size: 20px;
+    color:dimgray;
+  }
+
+  #buton{
+    background-color: cadetblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-position: center;
+    margin-top: 10px;
+    color:white;
+    text-align: center;
+    align-self: center;
+
+  }
+  #arch{
+    margin-top: 10px;
+
+    
+  }
