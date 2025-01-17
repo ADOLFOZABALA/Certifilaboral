@@ -1,0 +1,4 @@
+select *from empleos
+
+delete from empleos
+where id_Opec='2';

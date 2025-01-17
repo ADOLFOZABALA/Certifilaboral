@@ -1,0 +1,4 @@
+COPY importar_csv(matricula, marca, modelo, fecha)
+FROM '/Library/PostgreSQL/uploads/Excel_ejemplo.csv'
+DELIMITER ';'
+CSV HEADER;

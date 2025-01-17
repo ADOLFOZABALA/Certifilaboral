@@ -1,0 +1,7 @@
+create table empleos(
+id_Opec smallint,
+descripcion varchar (40),
+funciones varchar (70));
+
+
+select *from empleos;
